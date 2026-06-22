@@ -2,13 +2,13 @@
     Reset Básico e Variáveis
    ========================================= */
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 :root {
-    --lilac-primary: #3f08a5;
+    --lilac-primary: #6d2de4;
     --lilac-hover: #865dd1;
     --text-dark: #333333;
     --bg-white: #ffffff;
@@ -19,16 +19,12 @@ body {
     background-color: var(--bg-white);
     color: var(--text-dark);
     -webkit-font-smoothing: antialiased;
-}
 /* =========================================
    AJUSTE DE FLUXO (CORPO DA PÁGINA)
    ========================================= */
-body {
     padding-top: 80px; /* Evita que o conteúdo da primeira seção fique escondido atrás do header */
-    
     /* Mantenha suas outras configurações de body aqui (margin: 0, font-family, etc) */
 }
-
 
 /* =========================================
    CABEÇALHO (HEADER) FIXO
@@ -153,7 +149,7 @@ body {
 
 
 /* =========================================
-   MEDIA QUERIES - TABLET (>= 768px)
+        MEDIA QUERIES - TABLET (>= 768px)
    ========================================= */
 @media (min-width: 768px) {
     .hero-left h1 {
@@ -175,7 +171,7 @@ body {
 
 
 /* =========================================
-   MEDIA QUERIES - DESKTOP (>= 1024px)
+        MEDIA QUERIES - DESKTOP (>= 1024px)
    ========================================= */
 @media (min-width: 1024px) {
 
